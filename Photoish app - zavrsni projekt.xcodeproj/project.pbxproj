@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CB3BDBB26B3070300438BC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3BDBA26B3070300438BC2 /* AppDelegate.swift */; };
+		9CB3BDBD26B3070300438BC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3BDBC26B3070300438BC2 /* SceneDelegate.swift */; };
+		9CB3BDBF26B3070300438BC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3BDBE26B3070300438BC2 /* ViewController.swift */; };
+		9CB3BDC226B3070300438BC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB3BDC026B3070300438BC2 /* Main.storyboard */; };
+		9CB3BDC426B3070400438BC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CB3BDC326B3070400438BC2 /* Assets.xcassets */; };
+		9CB3BDC726B3070400438BC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB3BDC526B3070400438BC2 /* LaunchScreen.storyboard */; };
+		9CB3BDD226B3070400438BC2 /* Photoish_app___zavrsni_projektTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3BDD126B3070400438BC2 /* Photoish_app___zavrsni_projektTests.swift */; };
+		9CB3BDDD26B3070400438BC2 /* Photoish_app___zavrsni_projektUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3BDDC26B3070400438BC2 /* Photoish_app___zavrsni_projektUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CB3BDCE26B3070400438BC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CB3BDAF26B3070300438BC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CB3BDB626B3070300438BC2;
+			remoteInfo = "Photoish app - zavrsni projekt";
+		};
+		9CB3BDD926B3070400438BC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CB3BDAF26B3070300438BC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CB3BDB626B3070300438BC2;
+			remoteInfo = "Photoish app - zavrsni projekt";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9CB3BDB726B3070300438BC2 /* Photoish app - zavrsni projekt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photoish app - zavrsni projekt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB3BDBA26B3070300438BC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CB3BDBC26B3070300438BC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9CB3BDBE26B3070300438BC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9CB3BDC126B3070300438BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CB3BDC326B3070400438BC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CB3BDC626B3070400438BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CB3BDC826B3070400438BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB3BDCD26B3070400438BC2 /* Photoish app - zavrsni projektTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photoish app - zavrsni projektTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB3BDD126B3070400438BC2 /* Photoish_app___zavrsni_projektTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photoish_app___zavrsni_projektTests.swift"; sourceTree = "<group>"; };
+		9CB3BDD326B3070400438BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB3BDD826B3070400438BC2 /* Photoish app - zavrsni projektUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photoish app - zavrsni projektUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB3BDDC26B3070400438BC2 /* Photoish_app___zavrsni_projektUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photoish_app___zavrsni_projektUITests.swift"; sourceTree = "<group>"; };
+		9CB3BDDE26B3070400438BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CB3BDB426B3070300438BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB3BDCA26B3070400438BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB3BDD526B3070400438BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CB3BDAE26B3070300438BC2 = {
+			isa = PBXGroup;
+			children = (
+				9CB3BDB926B3070300438BC2 /* Photoish app - zavrsni projekt */,
+				9CB3BDD026B3070400438BC2 /* Photoish app - zavrsni projektTests */,
+				9CB3BDDB26B3070400438BC2 /* Photoish app - zavrsni projektUITests */,
+				9CB3BDB826B3070300438BC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CB3BDB826B3070300438BC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CB3BDB726B3070300438BC2 /* Photoish app - zavrsni projekt.app */,
+				9CB3BDCD26B3070400438BC2 /* Photoish app - zavrsni projektTests.xctest */,
+				9CB3BDD826B3070400438BC2 /* Photoish app - zavrsni projektUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CB3BDB926B3070300438BC2 /* Photoish app - zavrsni projekt */ = {
+			isa = PBXGroup;
+			children = (
+				9CB3BDBA26B3070300438BC2 /* AppDelegate.swift */,
+				9CB3BDBC26B3070300438BC2 /* SceneDelegate.swift */,
+				9CB3BDBE26B3070300438BC2 /* ViewController.swift */,
+				9CB3BDC026B3070300438BC2 /* Main.storyboard */,
+				9CB3BDC326B3070400438BC2 /* Assets.xcassets */,
+				9CB3BDC526B3070400438BC2 /* LaunchScreen.storyboard */,
+				9CB3BDC826B3070400438BC2 /* Info.plist */,
+			);
+			path = "Photoish app - zavrsni projekt";
+			sourceTree = "<group>";
+		};
+		9CB3BDD026B3070400438BC2 /* Photoish app - zavrsni projektTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CB3BDD126B3070400438BC2 /* Photoish_app___zavrsni_projektTests.swift */,
+				9CB3BDD326B3070400438BC2 /* Info.plist */,
+			);
+			path = "Photoish app - zavrsni projektTests";
+			sourceTree = "<group>";
+		};
+		9CB3BDDB26B3070400438BC2 /* Photoish app - zavrsni projektUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9CB3BDDC26B3070400438BC2 /* Photoish_app___zavrsni_projektUITests.swift */,
+				9CB3BDDE26B3070400438BC2 /* Info.plist */,
+			);
+			path = "Photoish app - zavrsni projektUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CB3BDB626B3070300438BC2 /* Photoish app - zavrsni projekt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB3BDE126B3070400438BC2 /* Build configuration list for PBXNativeTarget "Photoish app - zavrsni projekt" */;
+			buildPhases = (
+				9CB3BDB326B3070300438BC2 /* Sources */,
+				9CB3BDB426B3070300438BC2 /* Frameworks */,
+				9CB3BDB526B3070300438BC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Photoish app - zavrsni projekt";
+			productName = "Photoish app - zavrsni projekt";
+			productReference = 9CB3BDB726B3070300438BC2 /* Photoish app - zavrsni projekt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CB3BDCC26B3070400438BC2 /* Photoish app - zavrsni projektTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB3BDE426B3070400438BC2 /* Build configuration list for PBXNativeTarget "Photoish app - zavrsni projektTests" */;
+			buildPhases = (
+				9CB3BDC926B3070400438BC2 /* Sources */,
+				9CB3BDCA26B3070400438BC2 /* Frameworks */,
+				9CB3BDCB26B3070400438BC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CB3BDCF26B3070400438BC2 /* PBXTargetDependency */,
+			);
+			name = "Photoish app - zavrsni projektTests";
+			productName = "Photoish app - zavrsni projektTests";
+			productReference = 9CB3BDCD26B3070400438BC2 /* Photoish app - zavrsni projektTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CB3BDD726B3070400438BC2 /* Photoish app - zavrsni projektUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB3BDE726B3070400438BC2 /* Build configuration list for PBXNativeTarget "Photoish app - zavrsni projektUITests" */;
+			buildPhases = (
+				9CB3BDD426B3070400438BC2 /* Sources */,
+				9CB3BDD526B3070400438BC2 /* Frameworks */,
+				9CB3BDD626B3070400438BC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CB3BDDA26B3070400438BC2 /* PBXTargetDependency */,
+			);
+			name = "Photoish app - zavrsni projektUITests";
+			productName = "Photoish app - zavrsni projektUITests";
+			productReference = 9CB3BDD826B3070400438BC2 /* Photoish app - zavrsni projektUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CB3BDAF26B3070300438BC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					9CB3BDB626B3070300438BC2 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					9CB3BDCC26B3070400438BC2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 9CB3BDB626B3070300438BC2;
+					};
+					9CB3BDD726B3070400438BC2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 9CB3BDB626B3070300438BC2;
+					};
+				};
+			};
+			buildConfigurationList = 9CB3BDB226B3070300438BC2 /* Build configuration list for PBXProject "Photoish app - zavrsni projekt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CB3BDAE26B3070300438BC2;
+			productRefGroup = 9CB3BDB826B3070300438BC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CB3BDB626B3070300438BC2 /* Photoish app - zavrsni projekt */,
+				9CB3BDCC26B3070400438BC2 /* Photoish app - zavrsni projektTests */,
+				9CB3BDD726B3070400438BC2 /* Photoish app - zavrsni projektUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CB3BDB526B3070300438BC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB3BDC726B3070400438BC2 /* LaunchScreen.storyboard in Resources */,
+				9CB3BDC426B3070400438BC2 /* Assets.xcassets in Resources */,
+				9CB3BDC226B3070300438BC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB3BDCB26B3070400438BC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB3BDD626B3070400438BC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CB3BDB326B3070300438BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB3BDBF26B3070300438BC2 /* ViewController.swift in Sources */,
+				9CB3BDBB26B3070300438BC2 /* AppDelegate.swift in Sources */,
+				9CB3BDBD26B3070300438BC2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB3BDC926B3070400438BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB3BDD226B3070400438BC2 /* Photoish_app___zavrsni_projektTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB3BDD426B3070400438BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB3BDDD26B3070400438BC2 /* Photoish_app___zavrsni_projektUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CB3BDCF26B3070400438BC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CB3BDB626B3070300438BC2 /* Photoish app - zavrsni projekt */;
+			targetProxy = 9CB3BDCE26B3070400438BC2 /* PBXContainerItemProxy */;
+		};
+		9CB3BDDA26B3070400438BC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CB3BDB626B3070300438BC2 /* Photoish app - zavrsni projekt */;
+			targetProxy = 9CB3BDD926B3070400438BC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CB3BDC026B3070300438BC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CB3BDC126B3070300438BC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CB3BDC526B3070400438BC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CB3BDC626B3070400438BC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CB3BDDF26B3070400438BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9CB3BDE026B3070400438BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CB3BDE226B3070400438BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6TJX5R68D;
+				INFOPLIST_FILE = "Photoish app - zavrsni projekt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antoniovidakovic.Photoish-app---zavrsni-projekt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CB3BDE326B3070400438BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6TJX5R68D;
+				INFOPLIST_FILE = "Photoish app - zavrsni projekt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antoniovidakovic.Photoish-app---zavrsni-projekt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9CB3BDE526B3070400438BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6TJX5R68D;
+				INFOPLIST_FILE = "Photoish app - zavrsni projektTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antoniovidakovic.Photoish-app---zavrsni-projektTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photoish app - zavrsni projekt.app/Photoish app - zavrsni projekt";
+			};
+			name = Debug;
+		};
+		9CB3BDE626B3070400438BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6TJX5R68D;
+				INFOPLIST_FILE = "Photoish app - zavrsni projektTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antoniovidakovic.Photoish-app---zavrsni-projektTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photoish app - zavrsni projekt.app/Photoish app - zavrsni projekt";
+			};
+			name = Release;
+		};
+		9CB3BDE826B3070400438BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6TJX5R68D;
+				INFOPLIST_FILE = "Photoish app - zavrsni projektUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antoniovidakovic.Photoish-app---zavrsni-projektUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Photoish app - zavrsni projekt";
+			};
+			name = Debug;
+		};
+		9CB3BDE926B3070400438BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6TJX5R68D;
+				INFOPLIST_FILE = "Photoish app - zavrsni projektUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antoniovidakovic.Photoish-app---zavrsni-projektUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Photoish app - zavrsni projekt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CB3BDB226B3070300438BC2 /* Build configuration list for PBXProject "Photoish app - zavrsni projekt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB3BDDF26B3070400438BC2 /* Debug */,
+				9CB3BDE026B3070400438BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CB3BDE126B3070400438BC2 /* Build configuration list for PBXNativeTarget "Photoish app - zavrsni projekt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB3BDE226B3070400438BC2 /* Debug */,
+				9CB3BDE326B3070400438BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CB3BDE426B3070400438BC2 /* Build configuration list for PBXNativeTarget "Photoish app - zavrsni projektTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB3BDE526B3070400438BC2 /* Debug */,
+				9CB3BDE626B3070400438BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CB3BDE726B3070400438BC2 /* Build configuration list for PBXNativeTarget "Photoish app - zavrsni projektUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB3BDE826B3070400438BC2 /* Debug */,
+				9CB3BDE926B3070400438BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CB3BDAF26B3070300438BC2 /* Project object */;
+}
