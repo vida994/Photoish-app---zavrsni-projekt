@@ -3,18 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61A5534162A5DE90A21F1587 /* Pods_Photoish_app___zavrsni_projekt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067590ED469DD33181451332 /* Pods_Photoish_app___zavrsni_projekt.framework */; };
+		778D8E3BFFA01AB07CC2BFE2 /* Pods_Photoish_app___zavrsni_projektTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59EE89213BAE4B485E35E1B0 /* Pods_Photoish_app___zavrsni_projektTests.framework */; };
+		9C9FB7BC26B48B52006735B9 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9FB7BB26B48B52006735B9 /* DetailViewModel.swift */; };
+		9C9FB7BE26B48B81006735B9 /* DetailViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9FB7BD26B48B81006735B9 /* DetailViewModelImpl.swift */; };
+		9C9FB7C026B48BA6006735B9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9FB7BF26B48BA6006735B9 /* DetailViewController.swift */; };
 		9CB3BDBB26B3070300438BC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3BDBA26B3070300438BC2 /* AppDelegate.swift */; };
-		9CB3BDBD26B3070300438BC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3BDBC26B3070300438BC2 /* SceneDelegate.swift */; };
-		9CB3BDBF26B3070300438BC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3BDBE26B3070300438BC2 /* ViewController.swift */; };
-		9CB3BDC226B3070300438BC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB3BDC026B3070300438BC2 /* Main.storyboard */; };
 		9CB3BDC426B3070400438BC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CB3BDC326B3070400438BC2 /* Assets.xcassets */; };
 		9CB3BDC726B3070400438BC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB3BDC526B3070400438BC2 /* LaunchScreen.storyboard */; };
 		9CB3BDD226B3070400438BC2 /* Photoish_app___zavrsni_projektTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3BDD126B3070400438BC2 /* Photoish_app___zavrsni_projektTests.swift */; };
 		9CB3BDDD26B3070400438BC2 /* Photoish_app___zavrsni_projektUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3BDDC26B3070400438BC2 /* Photoish_app___zavrsni_projektUITests.swift */; };
+		9CB3BDEE26B3080900438BC2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3BDED26B3080900438BC2 /* HomeViewController.swift */; };
+		9CB3BDF126B3098900438BC2 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3BDF026B3098900438BC2 /* Picture.swift */; };
+		9CB3BDF426B317A700438BC2 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3BDF326B317A700438BC2 /* NetworkManager.swift */; };
+		9CB3BDF726B318D200438BC2 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3BDF626B318D200438BC2 /* Utilities.swift */; };
+		9CB3BDFA26B31AB700438BC2 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3BDF926B31AB700438BC2 /* UIView+Extension.swift */; };
+		9CB3BDFC26B31B2100438BC2 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3BDFB26B31B2100438BC2 /* HomeViewModel.swift */; };
+		9CB3BDFE26B31B3000438BC2 /* HomeViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3BDFD26B31B3000438BC2 /* HomeViewModelImpl.swift */; };
+		9CB3BE0126B31BA300438BC2 /* PicturesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3BE0026B31BA300438BC2 /* PicturesRepository.swift */; };
+		9CB3BE0426B338C100438BC2 /* PictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3BE0326B338C100438BC2 /* PictureTableViewCell.swift */; };
+		B24E4DB70E0438ED3A4F1E65 /* Pods_Photoish_app___zavrsni_projekt_Photoish_app___zavrsni_projektUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F98B9CABA5FA90DE622BB4C /* Pods_Photoish_app___zavrsni_projekt_Photoish_app___zavrsni_projektUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +47,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		067590ED469DD33181451332 /* Pods_Photoish_app___zavrsni_projekt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Photoish_app___zavrsni_projekt.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17849102FC46F12114858A60 /* Pods-Photoish app - zavrsni projekt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photoish app - zavrsni projekt.debug.xcconfig"; path = "Target Support Files/Pods-Photoish app - zavrsni projekt/Pods-Photoish app - zavrsni projekt.debug.xcconfig"; sourceTree = "<group>"; };
+		4F98B9CABA5FA90DE622BB4C /* Pods_Photoish_app___zavrsni_projekt_Photoish_app___zavrsni_projektUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Photoish_app___zavrsni_projekt_Photoish_app___zavrsni_projektUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59EE89213BAE4B485E35E1B0 /* Pods_Photoish_app___zavrsni_projektTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Photoish_app___zavrsni_projektTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6797CA10FDC87D452EFDE64C /* Pods-Photoish app - zavrsni projektTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photoish app - zavrsni projektTests.debug.xcconfig"; path = "Target Support Files/Pods-Photoish app - zavrsni projektTests/Pods-Photoish app - zavrsni projektTests.debug.xcconfig"; sourceTree = "<group>"; };
+		742F2536FB2DA236553D9CF1 /* Pods-Photoish app - zavrsni projekt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photoish app - zavrsni projekt.release.xcconfig"; path = "Target Support Files/Pods-Photoish app - zavrsni projekt/Pods-Photoish app - zavrsni projekt.release.xcconfig"; sourceTree = "<group>"; };
+		8CBB20232F9952EF7B8BD13D /* Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests.release.xcconfig"; path = "Target Support Files/Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests/Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9C9FB7BB26B48B52006735B9 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		9C9FB7BD26B48B81006735B9 /* DetailViewModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelImpl.swift; sourceTree = "<group>"; };
+		9C9FB7BF26B48BA6006735B9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		9CB3BDB726B3070300438BC2 /* Photoish app - zavrsni projekt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photoish app - zavrsni projekt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB3BDBA26B3070300438BC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9CB3BDBC26B3070300438BC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9CB3BDBE26B3070300438BC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9CB3BDC126B3070300438BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CB3BDC326B3070400438BC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CB3BDC626B3070400438BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CB3BDC826B3070400438BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +68,17 @@
 		9CB3BDD826B3070400438BC2 /* Photoish app - zavrsni projektUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photoish app - zavrsni projektUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB3BDDC26B3070400438BC2 /* Photoish_app___zavrsni_projektUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photoish_app___zavrsni_projektUITests.swift"; sourceTree = "<group>"; };
 		9CB3BDDE26B3070400438BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB3BDED26B3080900438BC2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9CB3BDF026B3098900438BC2 /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		9CB3BDF326B317A700438BC2 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9CB3BDF626B318D200438BC2 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		9CB3BDF926B31AB700438BC2 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		9CB3BDFB26B31B2100438BC2 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		9CB3BDFD26B31B3000438BC2 /* HomeViewModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelImpl.swift; sourceTree = "<group>"; };
+		9CB3BE0026B31BA300438BC2 /* PicturesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesRepository.swift; sourceTree = "<group>"; };
+		9CB3BE0326B338C100438BC2 /* PictureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureTableViewCell.swift; sourceTree = "<group>"; };
+		CF80AA9DDE40527A51E30BD8 /* Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests.debug.xcconfig"; path = "Target Support Files/Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests/Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0FC8FDA732F7BC1F15617FE /* Pods-Photoish app - zavrsni projektTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photoish app - zavrsni projektTests.release.xcconfig"; path = "Target Support Files/Pods-Photoish app - zavrsni projektTests/Pods-Photoish app - zavrsni projektTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61A5534162A5DE90A21F1587 /* Pods_Photoish_app___zavrsni_projekt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				778D8E3BFFA01AB07CC2BFE2 /* Pods_Photoish_app___zavrsni_projektTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +102,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B24E4DB70E0438ED3A4F1E65 /* Pods_Photoish_app___zavrsni_projekt_Photoish_app___zavrsni_projektUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		591ED9CCC199C390FB89DB9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17849102FC46F12114858A60 /* Pods-Photoish app - zavrsni projekt.debug.xcconfig */,
+				742F2536FB2DA236553D9CF1 /* Pods-Photoish app - zavrsni projekt.release.xcconfig */,
+				CF80AA9DDE40527A51E30BD8 /* Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests.debug.xcconfig */,
+				8CBB20232F9952EF7B8BD13D /* Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests.release.xcconfig */,
+				6797CA10FDC87D452EFDE64C /* Pods-Photoish app - zavrsni projektTests.debug.xcconfig */,
+				F0FC8FDA732F7BC1F15617FE /* Pods-Photoish app - zavrsni projektTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9C9FB7B826B48AE2006735B9 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				9C9FB7B926B48B21006735B9 /* ViewModel */,
+				9C9FB7BA26B48B2E006735B9 /* UI */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		9C9FB7B926B48B21006735B9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9C9FB7BB26B48B52006735B9 /* DetailViewModel.swift */,
+				9C9FB7BD26B48B81006735B9 /* DetailViewModelImpl.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9C9FB7BA26B48B2E006735B9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9C9FB7BF26B48BA6006735B9 /* DetailViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		9CB3BDAE26B3070300438BC2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +155,8 @@
 				9CB3BDD026B3070400438BC2 /* Photoish app - zavrsni projektTests */,
 				9CB3BDDB26B3070400438BC2 /* Photoish app - zavrsni projektUITests */,
 				9CB3BDB826B3070300438BC2 /* Products */,
+				591ED9CCC199C390FB89DB9A /* Pods */,
+				AC2A679C7AB4B0CA4F25FAF1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +173,13 @@
 		9CB3BDB926B3070300438BC2 /* Photoish app - zavrsni projekt */ = {
 			isa = PBXGroup;
 			children = (
+				9CB3BDF826B31A9B00438BC2 /* Extensions */,
+				9CB3BDF526B318BC00438BC2 /* Utils */,
+				9CB3BDF226B3179400438BC2 /* Network */,
+				9CB3BDEF26B308F900438BC2 /* Models */,
+				9CB3BDEA26B307CC00438BC2 /* Home */,
+				9C9FB7B826B48AE2006735B9 /* Detail */,
 				9CB3BDBA26B3070300438BC2 /* AppDelegate.swift */,
-				9CB3BDBC26B3070300438BC2 /* SceneDelegate.swift */,
-				9CB3BDBE26B3070300438BC2 /* ViewController.swift */,
-				9CB3BDC026B3070300438BC2 /* Main.storyboard */,
 				9CB3BDC326B3070400438BC2 /* Assets.xcassets */,
 				9CB3BDC526B3070400438BC2 /* LaunchScreen.storyboard */,
 				9CB3BDC826B3070400438BC2 /* Info.plist */,
@@ -128,6 +205,92 @@
 			path = "Photoish app - zavrsni projektUITests";
 			sourceTree = "<group>";
 		};
+		9CB3BDEA26B307CC00438BC2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9CB3BDFF26B31B8200438BC2 /* Repository */,
+				9CB3BDEC26B307E200438BC2 /* ViewModel */,
+				9CB3BDEB26B307D200438BC2 /* UI */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9CB3BDEB26B307D200438BC2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9CB3BE0226B3389600438BC2 /* Cell */,
+				9CB3BDED26B3080900438BC2 /* HomeViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9CB3BDEC26B307E200438BC2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9CB3BDFB26B31B2100438BC2 /* HomeViewModel.swift */,
+				9CB3BDFD26B31B3000438BC2 /* HomeViewModelImpl.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9CB3BDEF26B308F900438BC2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9CB3BDF026B3098900438BC2 /* Picture.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9CB3BDF226B3179400438BC2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9CB3BDF326B317A700438BC2 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9CB3BDF526B318BC00438BC2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9CB3BDF626B318D200438BC2 /* Utilities.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9CB3BDF826B31A9B00438BC2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9CB3BDF926B31AB700438BC2 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9CB3BDFF26B31B8200438BC2 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				9CB3BE0026B31BA300438BC2 /* PicturesRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		9CB3BE0226B3389600438BC2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9CB3BE0326B338C100438BC2 /* PictureTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		AC2A679C7AB4B0CA4F25FAF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				067590ED469DD33181451332 /* Pods_Photoish_app___zavrsni_projekt.framework */,
+				4F98B9CABA5FA90DE622BB4C /* Pods_Photoish_app___zavrsni_projekt_Photoish_app___zavrsni_projektUITests.framework */,
+				59EE89213BAE4B485E35E1B0 /* Pods_Photoish_app___zavrsni_projektTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +298,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CB3BDE126B3070400438BC2 /* Build configuration list for PBXNativeTarget "Photoish app - zavrsni projekt" */;
 			buildPhases = (
+				7608C298FA441C2D779961E8 /* [CP] Check Pods Manifest.lock */,
 				9CB3BDB326B3070300438BC2 /* Sources */,
 				9CB3BDB426B3070300438BC2 /* Frameworks */,
 				9CB3BDB526B3070300438BC2 /* Resources */,
+				3F158B048F365DB6D33B112B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +317,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CB3BDE426B3070400438BC2 /* Build configuration list for PBXNativeTarget "Photoish app - zavrsni projektTests" */;
 			buildPhases = (
+				D8C032C7B67C5B0F235C51C1 /* [CP] Check Pods Manifest.lock */,
 				9CB3BDC926B3070400438BC2 /* Sources */,
 				9CB3BDCA26B3070400438BC2 /* Frameworks */,
 				9CB3BDCB26B3070400438BC2 /* Resources */,
@@ -170,9 +336,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CB3BDE726B3070400438BC2 /* Build configuration list for PBXNativeTarget "Photoish app - zavrsni projektUITests" */;
 			buildPhases = (
+				F12D19A841B1972D7AAC92D7 /* [CP] Check Pods Manifest.lock */,
 				9CB3BDD426B3070400438BC2 /* Sources */,
 				9CB3BDD526B3070400438BC2 /* Frameworks */,
 				9CB3BDD626B3070400438BC2 /* Resources */,
+				9574B0AAE19BCC304FAC18DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +401,6 @@
 			files = (
 				9CB3BDC726B3070400438BC2 /* LaunchScreen.storyboard in Resources */,
 				9CB3BDC426B3070400438BC2 /* Assets.xcassets in Resources */,
-				9CB3BDC226B3070300438BC2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +420,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F158B048F365DB6D33B112B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Photoish app - zavrsni projekt/Pods-Photoish app - zavrsni projekt-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Photoish app - zavrsni projekt/Pods-Photoish app - zavrsni projekt-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Photoish app - zavrsni projekt/Pods-Photoish app - zavrsni projekt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7608C298FA441C2D779961E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Photoish app - zavrsni projekt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9574B0AAE19BCC304FAC18DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests/Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests/Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests/Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8C032C7B67C5B0F235C51C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Photoish app - zavrsni projektTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F12D19A841B1972D7AAC92D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9CB3BDB326B3070300438BC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CB3BDBF26B3070300438BC2 /* ViewController.swift in Sources */,
+				9C9FB7C026B48BA6006735B9 /* DetailViewController.swift in Sources */,
+				9CB3BDFA26B31AB700438BC2 /* UIView+Extension.swift in Sources */,
+				9CB3BDFE26B31B3000438BC2 /* HomeViewModelImpl.swift in Sources */,
+				9CB3BDF426B317A700438BC2 /* NetworkManager.swift in Sources */,
+				9CB3BDFC26B31B2100438BC2 /* HomeViewModel.swift in Sources */,
+				9CB3BDF126B3098900438BC2 /* Picture.swift in Sources */,
+				9C9FB7BE26B48B81006735B9 /* DetailViewModelImpl.swift in Sources */,
 				9CB3BDBB26B3070300438BC2 /* AppDelegate.swift in Sources */,
-				9CB3BDBD26B3070300438BC2 /* SceneDelegate.swift in Sources */,
+				9CB3BDF726B318D200438BC2 /* Utilities.swift in Sources */,
+				9CB3BDEE26B3080900438BC2 /* HomeViewController.swift in Sources */,
+				9CB3BE0426B338C100438BC2 /* PictureTableViewCell.swift in Sources */,
+				9C9FB7BC26B48B52006735B9 /* DetailViewModel.swift in Sources */,
+				9CB3BE0126B31BA300438BC2 /* PicturesRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +576,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9CB3BDC026B3070300438BC2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9CB3BDC126B3070300438BC2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9CB3BDC526B3070400438BC2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,6 +705,7 @@
 		};
 		9CB3BDE226B3070400438BC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17849102FC46F12114858A60 /* Pods-Photoish app - zavrsni projekt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +725,7 @@
 		};
 		9CB3BDE326B3070400438BC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 742F2536FB2DA236553D9CF1 /* Pods-Photoish app - zavrsni projekt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +745,7 @@
 		};
 		9CB3BDE526B3070400438BC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6797CA10FDC87D452EFDE64C /* Pods-Photoish app - zavrsni projektTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +768,7 @@
 		};
 		9CB3BDE626B3070400438BC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0FC8FDA732F7BC1F15617FE /* Pods-Photoish app - zavrsni projektTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +791,7 @@
 		};
 		9CB3BDE826B3070400438BC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF80AA9DDE40527A51E30BD8 /* Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +812,7 @@
 		};
 		9CB3BDE926B3070400438BC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CBB20232F9952EF7B8BD13D /* Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
