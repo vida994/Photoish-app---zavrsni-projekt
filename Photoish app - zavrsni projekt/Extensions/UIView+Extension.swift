@@ -15,3 +15,7 @@ extension UIView {
         }
     }
 }
+
+extension UIColor {
+    static var mainColor: UIColor  { return UIColor(red: 0.196, green: 0.193, blue: 0.193, alpha: 1) }
+}

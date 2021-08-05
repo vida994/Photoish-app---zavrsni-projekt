@@ -23,8 +23,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func configureTabViewController() -> UITabBarController {
         let tab = UITabBarController(nibName: nil, bundle: nil)
-        let homeViewController = HomeViewController(viewModel: HomeViewModelImpl(picturesRepository: PicturesRepositoryImpl(networkManager: NetworkManager())))
-        tab.setViewControllers([homeViewController], animated: true)
+        let homeViewModel = HomeViewModelImpl(picturesRepository: PicturesRepositoryImpl(networkManager: NetworkManager()))
+        let homeViewController = HomeViewController(viewModel: homeViewModel)
+        let favoritesViewController = FavoritesViewController(viewModel: FavoritesViewModelImpl(), homeViewModel: homeViewModel)
+        tab.setViewControllers([homeViewController,favoritesViewController], animated: true)
         return tab
     }
 

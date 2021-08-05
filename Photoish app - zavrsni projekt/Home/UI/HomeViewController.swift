@@ -48,7 +48,6 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
         configureUI()
         setupTableView()
         initializeVM()
@@ -156,7 +155,9 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let detailViewController = DetailViewController(viewModel: viewModel, indexPath: indexPath.row)
         
-        present(detailViewController, animated: true, completion: nil)
+        
+        let navigationViewController = UINavigationController(rootViewController: detailViewController)
+        present(navigationViewController, animated: true, completion: nil)
     }
 }
 

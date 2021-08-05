@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		61A5534162A5DE90A21F1587 /* Pods_Photoish_app___zavrsni_projekt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067590ED469DD33181451332 /* Pods_Photoish_app___zavrsni_projekt.framework */; };
 		778D8E3BFFA01AB07CC2BFE2 /* Pods_Photoish_app___zavrsni_projektTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59EE89213BAE4B485E35E1B0 /* Pods_Photoish_app___zavrsni_projektTests.framework */; };
+		9C0DF94A26B957410035A4DC /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0DF94926B957410035A4DC /* FavoritesViewController.swift */; };
+		9C0DF94C26B95BAD0035A4DC /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0DF94B26B95BAD0035A4DC /* FavoritesViewModel.swift */; };
+		9C0DF94E26B95BC30035A4DC /* FavoritesViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0DF94D26B95BC30035A4DC /* FavoritesViewModelImpl.swift */; };
 		9C9FB7BC26B48B52006735B9 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9FB7BB26B48B52006735B9 /* DetailViewModel.swift */; };
 		9C9FB7BE26B48B81006735B9 /* DetailViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9FB7BD26B48B81006735B9 /* DetailViewModelImpl.swift */; };
 		9C9FB7C026B48BA6006735B9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9FB7BF26B48BA6006735B9 /* DetailViewController.swift */; };
@@ -26,6 +29,7 @@
 		9CB3BDFE26B31B3000438BC2 /* HomeViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3BDFD26B31B3000438BC2 /* HomeViewModelImpl.swift */; };
 		9CB3BE0126B31BA300438BC2 /* PicturesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3BE0026B31BA300438BC2 /* PicturesRepository.swift */; };
 		9CB3BE0426B338C100438BC2 /* PictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB3BE0326B338C100438BC2 /* PictureTableViewCell.swift */; };
+		9CE20E4F26BBD9B600291791 /* FavoritePhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE20E4E26BBD9B600291791 /* FavoritePhotoCollectionViewCell.swift */; };
 		B24E4DB70E0438ED3A4F1E65 /* Pods_Photoish_app___zavrsni_projekt_Photoish_app___zavrsni_projektUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F98B9CABA5FA90DE622BB4C /* Pods_Photoish_app___zavrsni_projekt_Photoish_app___zavrsni_projektUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +58,9 @@
 		6797CA10FDC87D452EFDE64C /* Pods-Photoish app - zavrsni projektTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photoish app - zavrsni projektTests.debug.xcconfig"; path = "Target Support Files/Pods-Photoish app - zavrsni projektTests/Pods-Photoish app - zavrsni projektTests.debug.xcconfig"; sourceTree = "<group>"; };
 		742F2536FB2DA236553D9CF1 /* Pods-Photoish app - zavrsni projekt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photoish app - zavrsni projekt.release.xcconfig"; path = "Target Support Files/Pods-Photoish app - zavrsni projekt/Pods-Photoish app - zavrsni projekt.release.xcconfig"; sourceTree = "<group>"; };
 		8CBB20232F9952EF7B8BD13D /* Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests.release.xcconfig"; path = "Target Support Files/Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests/Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9C0DF94926B957410035A4DC /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		9C0DF94B26B95BAD0035A4DC /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
+		9C0DF94D26B95BC30035A4DC /* FavoritesViewModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModelImpl.swift; sourceTree = "<group>"; };
 		9C9FB7BB26B48B52006735B9 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		9C9FB7BD26B48B81006735B9 /* DetailViewModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelImpl.swift; sourceTree = "<group>"; };
 		9C9FB7BF26B48BA6006735B9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +84,7 @@
 		9CB3BDFD26B31B3000438BC2 /* HomeViewModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelImpl.swift; sourceTree = "<group>"; };
 		9CB3BE0026B31BA300438BC2 /* PicturesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesRepository.swift; sourceTree = "<group>"; };
 		9CB3BE0326B338C100438BC2 /* PictureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureTableViewCell.swift; sourceTree = "<group>"; };
+		9CE20E4E26BBD9B600291791 /* FavoritePhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		CF80AA9DDE40527A51E30BD8 /* Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests.debug.xcconfig"; path = "Target Support Files/Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests/Pods-Photoish app - zavrsni projekt-Photoish app - zavrsni projektUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F0FC8FDA732F7BC1F15617FE /* Pods-Photoish app - zavrsni projektTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photoish app - zavrsni projektTests.release.xcconfig"; path = "Target Support Files/Pods-Photoish app - zavrsni projektTests/Pods-Photoish app - zavrsni projektTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,6 +128,33 @@
 				F0FC8FDA732F7BC1F15617FE /* Pods-Photoish app - zavrsni projektTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		9C0DF94626B956FF0035A4DC /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				9C0DF94726B9570F0035A4DC /* ViewModel */,
+				9C0DF94826B957170035A4DC /* UI */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		9C0DF94726B9570F0035A4DC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9C0DF94B26B95BAD0035A4DC /* FavoritesViewModel.swift */,
+				9C0DF94D26B95BC30035A4DC /* FavoritesViewModelImpl.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9C0DF94826B957170035A4DC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9CE20E4D26BBD98E00291791 /* Cell */,
+				9C0DF94926B957410035A4DC /* FavoritesViewController.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		9C9FB7B826B48AE2006735B9 /* Detail */ = {
@@ -179,6 +214,7 @@
 				9CB3BDEF26B308F900438BC2 /* Models */,
 				9CB3BDEA26B307CC00438BC2 /* Home */,
 				9C9FB7B826B48AE2006735B9 /* Detail */,
+				9C0DF94626B956FF0035A4DC /* Favorite */,
 				9CB3BDBA26B3070300438BC2 /* AppDelegate.swift */,
 				9CB3BDC326B3070400438BC2 /* Assets.xcassets */,
 				9CB3BDC526B3070400438BC2 /* LaunchScreen.storyboard */,
@@ -277,6 +313,14 @@
 			isa = PBXGroup;
 			children = (
 				9CB3BE0326B338C100438BC2 /* PictureTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9CE20E4D26BBD98E00291791 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9CE20E4E26BBD9B600291791 /* FavoritePhotoCollectionViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -528,18 +572,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C0DF94C26B95BAD0035A4DC /* FavoritesViewModel.swift in Sources */,
 				9C9FB7C026B48BA6006735B9 /* DetailViewController.swift in Sources */,
 				9CB3BDFA26B31AB700438BC2 /* UIView+Extension.swift in Sources */,
+				9C0DF94A26B957410035A4DC /* FavoritesViewController.swift in Sources */,
 				9CB3BDFE26B31B3000438BC2 /* HomeViewModelImpl.swift in Sources */,
 				9CB3BDF426B317A700438BC2 /* NetworkManager.swift in Sources */,
 				9CB3BDFC26B31B2100438BC2 /* HomeViewModel.swift in Sources */,
 				9CB3BDF126B3098900438BC2 /* Picture.swift in Sources */,
+				9C0DF94E26B95BC30035A4DC /* FavoritesViewModelImpl.swift in Sources */,
 				9C9FB7BE26B48B81006735B9 /* DetailViewModelImpl.swift in Sources */,
 				9CB3BDBB26B3070300438BC2 /* AppDelegate.swift in Sources */,
 				9CB3BDF726B318D200438BC2 /* Utilities.swift in Sources */,
 				9CB3BDEE26B3080900438BC2 /* HomeViewController.swift in Sources */,
 				9CB3BE0426B338C100438BC2 /* PictureTableViewCell.swift in Sources */,
 				9C9FB7BC26B48B52006735B9 /* DetailViewModel.swift in Sources */,
+				9CE20E4F26BBD9B600291791 /* FavoritePhotoCollectionViewCell.swift in Sources */,
 				9CB3BE0126B31BA300438BC2 /* PicturesRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

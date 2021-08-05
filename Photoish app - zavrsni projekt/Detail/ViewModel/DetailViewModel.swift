@@ -13,6 +13,7 @@ protocol DetailViewModel: class {
     
     var viewModel: HomeViewModel? {get set}
     
+    
     var picture: Picture? {get set}
     
     var indexPathOfSelectedPicture: Int? {get set}
@@ -20,5 +21,7 @@ protocol DetailViewModel: class {
     var loadDataFavoritedButtonSubject: ReplaySubject<Bool> {get}
     
     func buttonCheck()
+    
+    func setUpData(viewController: DetailViewController)
     
 }

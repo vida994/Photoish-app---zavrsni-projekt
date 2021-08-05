@@ -15,11 +15,6 @@ class DetailViewController: UIViewController {
     
     let disposeBag = DisposeBag()
     
-    let progressView: UIActivityIndicatorView = {
-        let view = UIActivityIndicatorView(style: .large)
-        return view
-    }()
-    
     let photoImage: UIImageView = {
         let image = UIImageView()
         image.contentMode = .scaleAspectFill
@@ -89,31 +84,36 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         configureUI()
         initializeButtonCheckObservable(subject: viewModel.loadDataFavoritedButtonSubject).disposed(by: disposeBag)
-        
-    }
-
+     }
 }
 
 private extension DetailViewController {
     
     func configureUI() {
-        view.backgroundColor = UIColor(red: 0.196, green: 0.193, blue: 0.193, alpha: 1)
-        view.addSubviews(views: progressView, photoImage, likeImage, likeNumber, titleLabel, photographerNameLabel, dateLabel, favoriteButton)
+        view.backgroundColor = .mainColor
+        view.addSubviews(views: photoImage, likeImage, likeNumber, titleLabel, photographerNameLabel, dateLabel, favoriteButton)
         configureConstraints()
-        setUpData()
-        
+        viewModel.setUpData(viewController: self)
+        configureNavigationController()
+      }
+    
+    func configureNavigationController() {
+        navigationController?.navigationBar.barTintColor = .mainColor
+        navigationController?.navigationBar.tintColor = .white
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.white]
+        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(dismissPopUp))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(dismissPopUp))
+        navigationItem.title = viewModel.picture?.user?.name
+    
     }
     
     func configureConstraints() {
-        progressView.snp.makeConstraints({ (maker) in
-            maker.centerX.centerY.equalToSuperview()
-        })
         
         photoImage.snp.makeConstraints { (maker) in
             maker.width.equalTo(330)
             maker.height.equalTo(380)
             maker.centerX.equalToSuperview()
-            maker.top.equalTo(view.safeAreaLayoutGuide).offset(75)
+            maker.top.equalTo(view.safeAreaLayoutGuide).offset(30)
         }
         
         likeImage.snp.makeConstraints { (maker) in
@@ -130,6 +130,7 @@ private extension DetailViewController {
         titleLabel.snp.makeConstraints { (maker) in
             maker.top.equalTo(likeImage.snp.bottom).offset(16)
             maker.leading.equalTo(view.safeAreaLayoutGuide).offset(50)
+            maker.trailing.equalTo(view.safeAreaLayoutGuide).offset(-20)
         }
         
         photographerNameLabel.snp.makeConstraints { (maker) in
@@ -148,24 +149,7 @@ private extension DetailViewController {
             maker.trailing.equalTo(view.safeAreaLayoutGuide).offset(-38)
         }
     }
-    
-    func setUpData() {
-        
-        guard let urlString = viewModel.picture?.urls?.regular else {
-            print("ERROR: No url for passed picture in DetailVC")
-            return
-        }
-        
-        if let url = URL(string: urlString) {
-            photoImage.kf.setImage(with: url)
-        }
-        likeNumber.text = "99"
-        titleLabel.text = viewModel.picture?.description ?? "Missing a cool title"
-        photographerNameLabel.text = viewModel.picture?.user?.name
-        dateLabel.text = viewModel.picture?.createdAt
-        guard let value = viewModel.picture?.isFavorited else {return}
-        favoriteButton.isSelected = value
-    }
+   
 }
 
 private extension DetailViewController {
@@ -174,6 +158,10 @@ private extension DetailViewController {
         favoriteButton.isSelected.toggle()
         viewModel.loadDataFavoritedButtonSubject.onNext(viewModel.viewModel?.screenDataRelay.value[indexPathOfSelectedPicture].isFavorited ?? false)
         
+    }
+    
+    @objc func dismissPopUp() {
+        dismiss(animated: true, completion: nil)
     }
     
 }
@@ -186,7 +174,6 @@ private extension DetailViewController {
             .subscribe(on: ConcurrentDispatchQueueScheduler.init(qos: .background))
             .subscribe(onNext: { [unowned self] (status) in
                 viewModel.buttonCheck()
-                
             })
     }
     
